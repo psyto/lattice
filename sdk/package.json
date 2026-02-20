@@ -1,0 +1,20 @@
+{
+  "name": "@lattice/sdk",
+  "version": "0.1.0",
+  "description": "Trust graph propagation SDK for the LATTICE protocol — SPECTER's veracity layer",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.30.0",
+    "@solana/web3.js": "^1.95.0",
+    "bn.js": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.5",
+    "typescript": "^5.3.3"
+  }
+}
